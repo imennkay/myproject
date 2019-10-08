@@ -7,7 +7,55 @@
 
 body {
     font-family: 'Roboto', sans-serif, 'Open Sans';
+    color: aliceblue;
 } 
 .header{
     height: 90vh;
+    background: url(images/bg.jpg);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    position: relative;
+    
+}
+.menu{
+    text-transform: uppercase;
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+.item{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+    
+}
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+
+
+}
+.heading2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 60%);
+    text-align: center;
+}
+
+.knappibilden{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 350%);
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    background: #0000004f;
+    padding: 1rem;
+    border-radius: 25px;
+
 }
