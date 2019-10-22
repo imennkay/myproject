@@ -14,32 +14,13 @@ body {
 } 
 
 
-.heading{
-    font-size: 50px;
-    display: flex;
-    position: absolute;
-    color: black;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -40%);
 
-
-}
-.heading2{
-    font-size: 14px;
-    display: flex;
-    color: #FF28E3;
-    position: absolute;
-    top: 16%;
-    left: 50%;
-    transform: translate(-50%, 90%);
-    text-align: center;
-}
 
 .knappibilden{
     display: flex;
     position: absolute;
-    top: 8%;
+    top: 20%;
+    color: darkmagenta;
     left: 50%;
     transform: translate(-50%, 800%);
 
@@ -336,7 +317,7 @@ input:checked + .slide-container .nav label { display: block; }
     
     
     .heading{
-        font-size: 16px;
+    
     display: flex;
     position: absolute;
     color: black;
@@ -360,8 +341,8 @@ input:checked + .slide-container .nav label { display: block; }
     .knappibilden{
         display: flex;
         position: absolute;
-        top: -0%;
-        left: 44%;
+        top: 10%;
+        left: 50%;
         transform: translate(-50%, 800%);
     
     }
